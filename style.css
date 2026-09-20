@@ -34,10 +34,12 @@ header {
 }
 
 .avatar {
-  width: 72px;
-  height: 72px;
+  width: 76px;
+  height: 76px;
   border-radius: 6px;
   border: 1px solid var(--border);
+  object-fit: cover;
+  filter: grayscale(25%) saturate(0.9) contrast(1.03);
 }
 
 h1 {
