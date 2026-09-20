@@ -30,7 +30,9 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 24px;
 }
 
 .avatar {
@@ -46,31 +48,6 @@ h1 {
   font-size: 1.1rem;
   font-weight: 700;
   margin: 0;
-}
-
-nav {
-  display: flex;
-  gap: 16px;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  padding: 10px 0;
-  margin-bottom: 32px;
-}
-
-nav a {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-nav a::before {
-  content: "/";
-  color: var(--dim);
-  margin-right: 2px;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
 
 section {
